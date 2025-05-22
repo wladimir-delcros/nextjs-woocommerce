@@ -6,7 +6,7 @@
     "lhci": "lhci autorun",
     "lhci:perf": "lhci autorun --collect.settings.preset=perf",
     "lhci:desktop": "lhci autorun --collect.settings.preset=desktop",
-    "dev": "next dev --turbopack",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
