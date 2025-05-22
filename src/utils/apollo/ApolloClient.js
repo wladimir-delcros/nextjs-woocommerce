@@ -85,7 +85,7 @@ const client = new ApolloClient({
   link: middleware.concat(
     afterware.concat(
       createHttpLink({
-        uri: process.env.NEXT_PUBLIC_GRAPHQL_URL,
+        uri: 'http://runmemories.com/graphql',
         fetch,
       }),
     ),
